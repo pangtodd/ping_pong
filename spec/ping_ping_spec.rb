@@ -8,7 +8,10 @@ describe('#numbers_loop') do
 end
 
 describe ('#sort') do
-  it("goes through the an array and replaces all numbers divisible by 15 with 'ping-pong") do
+  it("replaces numbers divisible by 15 with 'ping-pong") do
     expect(sort(15)).to eq('ping-pong')
+  end
+  it ("replaces numbers divisible by 5 with 'pong'")do
+    expect(sort(10)).to eq('pong')
   end
 end
