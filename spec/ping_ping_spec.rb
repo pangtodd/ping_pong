@@ -21,3 +21,9 @@ describe ('#sort') do
     expect(sort(8)).to eq(8)
   end
 end
+
+describe ('#bundle') do
+  it("creates an array and inserts ping, pong, or ping-pong if number is divisible by 3 or 5")do
+    expect(bundle(15)).to eq([1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, "ping", 13, 14, "ping-pong"])
+  end
+end
