@@ -17,5 +17,7 @@ def sort(digit)
     'pong'
   elsif digit % 3 == 0
     'ping'
+  else
+    digit
   end
 end
