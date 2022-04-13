@@ -1,5 +1,12 @@
 require('pry') 
 
 def numbers_loop(final_number)
-  #eventually put code here
+  x= 0
+  array = []
+  while (x < final_number)
+  x = x+1
+  array.push(x)
+  end
+  array
 end
+
