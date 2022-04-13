@@ -17,4 +17,7 @@ describe ('#sort') do
   it ("replaces numbers divisible by 3 with 'ping'")do
     expect(sort(9)).to eq('ping')
   end
+  it ("passes returns all other numbers that are not divible by 3 or 5")do
+    expect (sort(8)).to eq(8)
+  end
 end
