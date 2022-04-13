@@ -13,5 +13,7 @@ end
 def sort(digit)
   if digit % 15 == 0
     'ping-pong'
+  elsif digit % 5 == 0
+    'pong'
   end
 end
