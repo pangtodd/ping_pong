@@ -14,4 +14,7 @@ describe ('#sort') do
   it ("replaces numbers divisible by 5 with 'pong'")do
     expect(sort(10)).to eq('pong')
   end
+  it ("replaces numbers divisible by 3 with 'ping'")do
+    expect(sort(9)).to eq('ping')
+  end
 end
