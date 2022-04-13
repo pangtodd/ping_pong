@@ -21,3 +21,12 @@ def sort(digit)
     digit
   end
 end
+
+def bundle(final_number)
+  modified_array= numbers_loop(final_number)
+  final_array =[]
+  modified_array.each do |array_element|
+    final_array.push(sort(array_element))
+  end
+  final_array
+end
