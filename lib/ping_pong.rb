@@ -10,3 +10,8 @@ def numbers_loop(final_number)
   array
 end
 
+def sort(digit)
+  if digit % 15 == 0
+    'ping-pong'
+  end
+end
